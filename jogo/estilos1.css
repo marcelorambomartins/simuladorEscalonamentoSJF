@@ -1,0 +1,33 @@
+.container1 {
+   width: 100vw;
+   height: 100vh;
+   background: #6C7A89;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center
+  }
+
+.box {
+	padding: 15px;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+ }
+
+body {
+      margin: 0px;
+   background-color: #6C7A89;
+	}
+
+.botao{
+	color: 	white;
+	background-color: #1BA39C;
+}
+
+.jumbotron#color{
+  color:  white;
+  background-color: #1BA39C;
+}

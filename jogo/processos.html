@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	<head>
+
+	<meta charset="utf-8">
+
+	<title>Processos</title>
+
+	<link rel="stylesheet" type="text/css" href="estilos1.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	</head>
+	<body>
+
+	<div class="container1">
+
+		<div class="box">
+
+			<h2 class="botao">Escalonamento SJF</h2>
+			<form action="controllerProcessos.php" method="GET">
+				<input type="hidden" name="action" value="SJF">
+				<input type="hidden" name="status" value="1">
+				<p>
+					<label for="nomeProcesso">Nome Processo:</label>
+					<input class="form-control" type="text" name="nomeProcesso" maxlength="10" required>
+				</p>
+
+				<p>
+					<label for="tamanho">Tamanho:</label>
+					<input class="form-control" type="number" name="tamanho" min="1" max="10" required>
+				</p>
+
+				<input class="btn botao" type="submit" value="Enviar Processo">
+				
+			</form>
+
+		</div>
+		
+	</div>
+
+	</body>
+</html>
